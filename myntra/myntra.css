@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid red; */
+    box-shadow: 1px 1px 10px rgb(69, 57, 57);
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 80px;
+    width: 93%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#nav>article>.logo{
+    height: 80px;
+    width: 10%;
+    /* border-right: 1px solid red; */
+    display: flex;
+    align-items: center;
+
+}
+#nav>article>.logo>img{
+height: 70%;
+width: 35%;
+}
+#nav>article>.menu{
+    height: 80px;
+    width: 45%;
+     /* border-right: 1px solid red;  */
+
+}
+#nav>article>.menu>ol{
+   height: 100%;
+   display: flex;
+   font-size: 16px;
+   justify-content: space-between;
+   list-style: none;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 650;
+    
+}
+sup{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+#nav>article>.menu>ol>li{
+
+}
+#nav>article>.search{
+    width: 25%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#nav>article>.search>div{
+    /* height: 40%; */
+    width: 90%;
+    /* border-right: 1px solid red; */
+    background-color:white
+   
+}
+#nav>article>.search>div>input{
+    border: none;
+    width: 80%;
+    background-color:white
+}
+#nav>article>.search>div>input:focus{
+    outline: none;
+}
+#nav>article>.search>div>i{
+    font-size: 13px;
+    padding: 20px;
+}
+
+#nav>article>.icon{
+    height: 80px;
+    width: 20%;
+    /* border-right: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#nav>article>.icon>div{
+    text-align: center;
+}
+#nav>article>.icon>div>p{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    margin-top: 4px;
+}
+
+/* NAVBAR END  */
+
+#HeadingImage{
+    height: 100px;
+    width: 100%;
+}
+#HeadingImage>a{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage>a>img{
+    height: 130px;
+    width: 100%;
+}
+
+/* OMG SALE END */
+
+#Roundimg1{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+#Roundimg1>img{
+    height: 100%;
+    width: 10%;
+}
+#Roundimg2{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+#Roundimg2>img{
+    height: 100%;
+    width: 10%;
+}
+
+/* ROUND IMG PART ONE END  */
+
+/* Second brand start HERE */
+
+#HeadingImage2{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage2>a{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage2>a>img{
+    height: 130px;
+    width: 100%;
+}
+
+/* OMG SALE END */
+
+#Roundimg3{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+#Roundimg3>img{
+    height: 100%;
+    width: 10%;
+}
+#Roundimg4{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+#Roundimg4>img{
+    height: 100%;
+    width: 10%;
+}
+
+/* ROUND IMG PART ONE END  */
+
+/* GRAND BAG START HERE */
+
+#HeadingImage3{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage3>a{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage3>a>img{
+    height: 130px;
+    width: 100%;
+}
+
+#Roundimg5{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+#Roundimg5>img{
+    height: 100%;
+    width: 10%;
+}
+#Roundimg6{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+#Roundimg6>img{
+    height: 100%;
+    width: 10%;
+}
+
+/* BUDGET BUY */
+#HeadingImage4{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage4>a{
+    height: 100%;
+    width: 100%;
+}
+#HeadingImage4>a>img{
+    height: 130px;
+    width: 100%;
+}
+
+/* END */
+
+#Footer{
+    height: 500px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Footer>article{
+    height: 80%;
+    width: 85%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+#Footer>article>.OnlineShop{
+    height: 100%;
+    width: 15%;
+    /* background-color: azure; */
+}
+#Footer>article>.CustomberPolicy{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(5, 121, 121); */
+}
+#Footer>article>.Exp{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(181, 206, 56);
+}
+#Footer>article>.Original{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(215, 199, 28);
+}
+#Footer>article>.OnlineShop>ol{
+    list-style: none;
+    line-height: 25px;
+}
+
+#Footer>article>.OnlineShop>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,121);
+    font-size: 13px;
+}
+#Footer>article>.OnlineShop>.List2{
+    margin-top: 20px;
+}
+
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* NEXT SIDE */
+
+#Footer>article>.CustomberPolicy>ol{
+    list-style: none;
+    line-height: 25px;
+}
+
+#Footer>article>.CustomberPolicy>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,121);
+    font-size: 13px;
+}
+#Footer>article>.CustomberPolicy>.List3{
+    margin-top: 0px;
+}
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* THIRD COLUM */
+
+#Footer>article>.Exp>ol{
+    list-style: none;
+    line-height: 25px;
+}
+.c{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#Footer>article>.Exp>ol>li>span{
+    width: 50%;
+    background-color: black;
+}
